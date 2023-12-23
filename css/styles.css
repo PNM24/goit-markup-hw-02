@@ -39,17 +39,19 @@ color: var(--OCEAN);
     flex-shrink: 0;
 }
 
-.logo link{
-    color: var(--iris, #4D5AE5);
-        font-family: Raleway,sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-decoration: none;
+.logo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue);
 }
+.link {
+    text-decoration: none;
+}
+    
 
 
 .logo-header{
@@ -69,16 +71,7 @@ color: var(--OCEAN);
     background-color: var(--navy-blue);
 }
 .logo-footer {
-    background-color: var(--navy-blue), #f4f4fd;
-    flex-shrink: 0;
-    font-family: Raleway, sans-serif;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.54px;
-        text-transform: uppercase;
-        text-decoration: none;
+    color: #f4f4fd;
 }
 
 
