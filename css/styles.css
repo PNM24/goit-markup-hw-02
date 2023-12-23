@@ -53,7 +53,7 @@ color: var(--OCEAN);
 
 
 .logo-header{
-    color: var(--navy-blue);
+    color: var(--navy-blue, #f4f4fd);
         font-family: Raleway,sans-serif;
         font-size: 18px;
         font-style: normal;
@@ -68,8 +68,8 @@ color: var(--OCEAN);
 .footer-content{
     background-color: var(--navy-blue);
 }
-.footer-logo {
-    background-color: var(--navy-blue);
+.logo-footer {
+    background-color: var(--navy-blue), #f4f4fd;
     flex-shrink: 0;
     font-family: Raleway, sans-serif;
         font-size: 18px;
@@ -81,10 +81,6 @@ color: var(--OCEAN);
         text-decoration: none;
 }
 
-
-.footer-content .span {
-    color: #f4f4fd;
-}
 
 .footer-description {
     color: var(--cloud, #F4F4FD);
