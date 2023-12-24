@@ -15,7 +15,7 @@ body {
     color: #434455;
     background-color: var(--brand-color);
 }
-.logo-link {
+.top-line-bg {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -27,8 +27,18 @@ body {
 .logo-header{
     color: #2e2f42;
 }
+.logo{
+color: var(--IRIS, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px;
+letter-spacing: 0.54px;
+text-transform: uppercase;
+}
 
-.link {
+.logo {
     text-decoration: none;
 }
 .dark-bg {
@@ -47,6 +57,50 @@ letter-spacing: 1.12px;
 .list{
     list-style: none;
 }
+.studio-section{
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+
+}
+.studio-section:hover{
+    color: #404bbf;
+}
+.studio-section:focus{
+    color: #404bbf;
+}
+.portfolio-section{
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.portfolio-section:hover{
+    color: #404bbf;
+}
+.portfolio-section:focus{
+    color: #404bbf;
+}
+.contacts-section{
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.contacts-section:hover{
+    color: #404bbf;
+}
+.contacts-section:focus{
+    color: #404bbf;
+}
+
 
 .contacts{
     font-style: normal;
@@ -64,6 +118,9 @@ letter-spacing: 1.12px;
     letter-spacing: 0.02em;
     color: var(--dark-blue);
     text-decoration: none;
+}
+.address{
+    font-style: normal;
 }
 .index:hover {
     color: #404bbf;
@@ -164,9 +221,13 @@ letter-spacing: 1.12px;
 }
 
 .footer-description {
-    line-height: 1.5;
-    color: var(--light-color, #F4F4FD);
-    letter-spacing: 0.02em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--blue);
 }
 
 .custom-class {
