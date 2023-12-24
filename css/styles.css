@@ -5,15 +5,13 @@
     --more-blue: #434455;
     --light-color: #F4F4FD;
     --logo-color: #f4f4f4fd;
-    --button-color: #4d5ae5;F
-  
-}
+    --button-color: #4d5ae5;
+  }
 
 
 body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: var(--brand-color);
+font-family: "Roboto" sans-serif;
+color: #434455;
 }
 
 .logo{
