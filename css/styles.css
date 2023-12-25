@@ -15,6 +15,27 @@ color: #434455;
 background-color: var(--brand-color)
 }
 
+.top-line-bg{
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.nav-menu{
+display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+}
+
+.dark-bg{
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
+background: var(--NAVY-BLUE, #2E2F42);
+}
 .logo{
 color: var(--IRIS, #4D5AE5);
 font-family: Raleway;
@@ -24,6 +45,7 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+
 }
 .logo-header{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -34,9 +56,14 @@ font-weight: 800;
 line-height: 21px;
 letter-spacing: 0.54px;
 text-transform: uppercase;
+width: 71px;
 }
 .logo{
-    text-decoration: none;
+text-decoration: none;
+}
+
+.link {
+text-decoration: none;
 }
 .studio-section{
 color: var(--NAVY-BLUE, #2E2F42);
@@ -105,11 +132,14 @@ font-style: normal;
 font-weight: 700;
 line-height: 60px;
 letter-spacing: 1.12px;
+width: 496px;
 }
-.dark-bg{
-background: var(--NAVY-BLUE, #2E2F42);
-}
-.btn{
+
+.order-button{
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
 border-radius: 4px;
 background: var(--IRIS, #4D5AE5);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
