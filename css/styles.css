@@ -256,12 +256,14 @@ font-style: normal;
 font-weight: 500;
 line-height: 24px;
 letter-spacing: 0.64px;
+cursor: pointer;
 }
 
 .firstbtn:hover,
 .firstbtn:focus{
     color: #404BBF
 }
+
 
 .banking{
 color: var(--NAVY-BLUE, #2E2F42);
